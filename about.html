@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Template</title>
+        <meta charset="utf-8">
+        <meta name="Description" content="A small, self made open source website offering different services for visitors to play around with.">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Roboto+Mono|Source+Sans+Pro|Ubuntu&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="loadTheme(1)">
+        <div>
+            <header>
+                <div class="header">
+                    <a class="title floatLeft button" href="index.html" title="Homepage" id="homepage">Home</a>
+                    <div class="icon floatRight button" onclick="modeSwitch(1)" title="Light Mode" id="mode"></div>
+                    <a class="title floatRight button" href="about.html" title="About Page" id="about">About</a>
+                
+                    <div class="exp"></div>
+                </div>
+            </header>
+        
+            <div class="main headerGap">
+                <b class="welcome">About</b>
+                <p class="message">This is the about page.</p>
+                <p class="message">Tell us some trivia about you and your website!</p>
+            </div>
+        </div>
+    
+        <script src="scripts/modeSwitch.js"></script>
+    </body>
+
+</html>
